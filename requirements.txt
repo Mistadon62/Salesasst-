@@ -1,0 +1,36 @@
+# Core Rasa dependencies
+rasa==3.5.7
+rasa-sdk==3.5.7
+
+# Environment and configuration management
+python-dotenv
+
+# HTTP requests for APIs
+requests
+
+# Flask for custom action server (optional)
+flask
+
+# Database dependencies (use only if needed)
+psycopg2-binary  # For PostgreSQL
+pymongo  # For MongoDB
+
+# Machine learning and data processing
+numpy
+pandas
+scikit-learn
+
+# NLP libraries
+spacy
+nltk
+
+# TensorFlow for custom ML models (if used)
+tensorflow
+
+# Deployment dependencies
+gunicorn  # For deploying action servers
+watchdog  # For hot-reloading in development
+
+# Other helpful libraries
+pyyaml  # For YAML file handling
+jsonschema  # For validating JSON schema
