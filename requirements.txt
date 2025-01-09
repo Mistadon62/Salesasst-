@@ -21,11 +21,11 @@ pandas
 scikit-learn
 
 # NLP libraries
-spacy
+spacy<3.3  # Ensure compatibility with Python 3.8
 nltk
 
 # TensorFlow for custom ML models (if used)
-tensorflow
+tensorflow<2.6  # TensorFlow 2.6+ requires Python 3.9+
 
 # Deployment dependencies
 gunicorn  # For deploying action servers
@@ -33,4 +33,4 @@ watchdog  # For hot-reloading in development
 
 # Other helpful libraries
 pyyaml  # For YAML file handling
-jsonschema  # For validating JSON schema
+jsonschema==3.2.0  # Compatible version for Python 3.8
